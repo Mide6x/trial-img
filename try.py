@@ -10,10 +10,7 @@ from cloudinary.utils import cloudinary_url
 
 # Configuration for Cloudinary
 cloudinary.config(
-    cloud_name="dmb7hhij5",
-    api_key="755959593224211",
-    api_secret="ZIgE-QyRGZir4eksTagnFDlMrSw",
-    secure=True
+    
 )
 
 category_data = {
