@@ -176,8 +176,8 @@ def process_images(df):
             df.at[index, 'Image URL 1'] = transformed_image_url
             
             # Delete downloaded image (optional)
-            # import os
-            # os.remove(download_path)
+            import os
+            os.remove(download_path)
         
         st.success("Image processing completed successfully.")
     except Exception as e:
